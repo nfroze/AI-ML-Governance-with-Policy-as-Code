@@ -93,16 +93,16 @@ violation[{"msg": msg}] {
 
 ## Screenshots
 
-1. VCS provider configuration in HCP Terraform
-2. Policy set connected to workspace
-3. Terraform infrastructure deployment (77 resources)
-4. Sentinel policies evaluation results
-5. AWS EKS cluster with nodes
-6. OPA Gatekeeper blocking non-compliant deployment
-7. OPA Gatekeeper allowing compliant deployment
-8. Model serving endpoint
-9. All platform components running
-10. Infrastructure teardown
+1. [VCS provider configuration in HCP Terraform](screenshots/1.png)
+2. [Policy set connected to workspace](screenshots/2.png)
+3. [Terraform infrastructure deployment (77 resources)](screenshots/3.png)
+4. [Sentinel policies evaluation results](screenshots/4.png)
+5. [AWS EKS cluster with nodes](screenshots/5.png)
+6. [OPA Gatekeeper blocking non-compliant deployment](screenshots/6.png)
+7. [OPA Gatekeeper allowing compliant deployment](screenshots/7.png)
+8. [Model serving endpoint](screenshots/8.png)
+9. [All platform components running](screenshots/9.png)
+10. [Infrastructure teardown](screenshots/10.png)
 
 ## Deployment Process
 
