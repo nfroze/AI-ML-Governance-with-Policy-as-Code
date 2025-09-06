@@ -8,13 +8,22 @@ HCP Terraform • HashiCorp Sentinel • OPA Gatekeeper • AWS EKS • Kubernet
 
 ## Screenshots
 
-- [VCS provider configuration](screenshots/1.png)
-- [Policy set connected](screenshots/2.png)
-- [Infrastructure deployment](screenshots/3.png)
-- [Sentinel evaluation](screenshots/4.png)
-- [EKS cluster](screenshots/5.png)
-- [OPA blocking deployment](screenshots/6.png)
-- [OPA allowing deployment](screenshots/7.png)
-- [Model endpoint](screenshots/8.png)
-- [Platform components](screenshots/9.png)
-- [Infrastructure teardown](screenshots/10.png)
+![VCS provider configuration](screenshots/1.png)
+
+![Policy set connected](screenshots/2.png)
+
+![Infrastructure deployment](screenshots/3.png)
+
+![Sentinel evaluation](screenshots/4.png)
+
+![EKS cluster](screenshots/5.png)
+
+![OPA blocking deployment](screenshots/6.png)
+
+![OPA allowing deployment](screenshots/7.png)
+
+![Model endpoint](screenshots/8.png)
+
+![Platform components](screenshots/9.png)
+
+![Infrastructure teardown](screenshots/10.png)
