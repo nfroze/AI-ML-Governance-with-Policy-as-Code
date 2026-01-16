@@ -12,6 +12,8 @@ The infrastructure deploys an EKS cluster with encryption-at-rest for secrets, V
 
 ## Architecture
 
+![Cloud Architecture](screenshots/cloud-architecture.png)
+
 Terraform provisions the AWS infrastructure through HCP Terraform, where Sentinel policies evaluate every plan before apply. The policy set includes four policies: GPU instance control (hard-mandatory), AI resource tagging (hard-mandatory), spending limits (soft-mandatory), and model deployment rules (advisory).
 
 Once infrastructure exists, OPA Gatekeeper runs as a Kubernetes admission controller on the EKS cluster. Two ConstraintTemplates define the governance rules: `K8sRequiredLabels` enforces mandatory ML tracking labels, while `MLModelRegistry` requires production deployments to include a model-registry-url annotation. Any kubectl apply that fails these constraints is rejected before the pod is scheduled.
